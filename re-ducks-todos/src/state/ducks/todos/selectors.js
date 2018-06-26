@@ -1,8 +1,6 @@
 import CONSTANTS from "./constants";
 
 const getVisibleTodos = (todos, filter) => {
-  console.log(todos);
-  console.log(filter);
   switch (filter) {
     case CONSTANTS.SHOW_ALL:
       return todos;
