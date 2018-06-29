@@ -1,16 +1,10 @@
 import actions from "./actions";
 
-const addTodo = text => {
-  return actions.addTodo(text);
-};
+const addTodo = actions.addTodo;
 
-const setVisibilityFilter = filter => {
-  return actions.setVisibilityFilter(filter);
-};
+const setVisibilityFilter = actions.setVisibilityFilter;
 
-const toggleTodo = id => {
-  return actions.toggleTodo(id);
-};
+const toggleTodo = actions.toggleTodo;
 
 export default {
   addTodo,
